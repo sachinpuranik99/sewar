@@ -4,8 +4,8 @@ python:
   - "3.7"
 # command to install dependencies, requirements.txt should NOT include numpy
 install:
-  - pip install scipy==1.1.0
   - pip install pytest 
+  - pip install scipy==1.1.0
 # command to run tests
 script:
   - pytest # or py.test for Python versions 3.5 and below
